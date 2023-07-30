@@ -15,8 +15,7 @@ namespace odev_2
             Console.Write("Give me a one number: ");
             last = double.Parse(Console.ReadLine());
 
-            for (int i = 0; i < 10; i++) 
-            {
+            for (int i = 0; i < 10; i++) {
                 Console.Clear();
                 Console.Write("Give me a another one number: ");
                 input = double.Parse(Console.ReadLine());
@@ -24,9 +23,6 @@ namespace odev_2
             }
             Console.Clear();
             Console.Write("Sum of Numbers:: " + last);
-
-
-
             Console.ReadKey();
         }
     }
